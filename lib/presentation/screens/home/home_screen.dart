@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
 import 'package:widgets_app/config/menu/menu_items.dart';
+import 'package:widgets_app/config/router/app_router.dart';
+import 'package:widgets_app/presentation/screens/buttons/buttons_screens.dart';
 
 import '../../../config/menu/menu_items.dart';
 
@@ -38,7 +41,7 @@ class _HomeBody extends StatelessWidget {
           leading: Icon( menuItems[index].icono, color:colorTheme.primary,),
           trailing: Icon(Icons.arrow_forward_ios_rounded,color: colorTheme.primary,),
           onTap: () {
-            
+            context.push( menuItems[index].link);
           },
 
       ),
