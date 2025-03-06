@@ -7,6 +7,10 @@ import 'package:widgets_app/presentation/screens/buttons/buttons_screens.dart';
 import '../../../config/menu/menu_items.dart';
 
 class HomeScreen  extends StatelessWidget {
+
+
+  static const String nameRoute = 'home_screen';
+
   const HomeScreen ({super.key});
 
   @override

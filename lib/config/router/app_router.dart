@@ -5,9 +5,9 @@ final appRouter = GoRouter(
       initialLocation: '/',
       routes:[
         
-        GoRoute(path: '/',builder: (context, state) => const HomeScreen(),), 
-        GoRoute(path: '/buttons',builder: (context, state) => const ButtonsScreens(),), 
-        GoRoute(path: '/Card',builder: (context, state) => const CardsScreens(),) 
+        GoRoute(path: '/',name: HomeScreen.nameRoute,builder: (context, state) => const HomeScreen(),), 
+        GoRoute(path: '/buttons',name:  ButtonsScreens.nameRoute,builder: (context, state) => const ButtonsScreens(),), 
+        GoRoute(path: '/Card',name: CardsScreens.nameRoute ,builder: (context, state) => const CardsScreens(),) 
         
         ]
 );

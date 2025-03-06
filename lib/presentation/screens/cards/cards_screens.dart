@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 
 class CardsScreens extends StatelessWidget {
+
+  static const String nameRoute = 'card_screen';
   const CardsScreens({super.key});
 
   @override
