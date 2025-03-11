@@ -4,7 +4,10 @@
       Colors.blue,
       Colors.orange,
       Colors.green,
-      Colors.indigo
+      Colors.deepOrange,
+      Colors.deepPurple,
+      Color.fromARGB(255, 81, 171, 91),
+      Color.fromARGB(255, 54, 70, 220)
 
 ];
 
