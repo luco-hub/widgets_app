@@ -23,6 +23,7 @@ MenuItems(title: 'Botones',subTitle: 'varios botones flutter',link: '/buttons',i
 MenuItems(title: 'Tarjetas',subTitle: 'un contenedor estilizado',link: '/Card',icono: Icons.credit_card),
 MenuItems(title: 'Proges Indicator',subTitle: 'Generales y controlados',link: '/progres',icono: Icons.refresh_rounded),
 MenuItems(title: 'Snack Bar y Dialogs',subTitle: 'Generales y controlados',link: '/snack',icono: Icons.ballot_rounded),
-MenuItems(title: 'Animate Container',subTitle: 'Animations',link: '/animations',icono: Icons.check_box_outline_blank_rounded)
+MenuItems(title: 'Animate Container',subTitle: 'Animations',link: '/animations',icono: Icons.check_box_outline_blank_rounded),
+MenuItems(title: 'UI Controls',subTitle: 'Ui Ctrl',link: '/ui_control',icono: Icons.check_box_outlined),
 
 ];
