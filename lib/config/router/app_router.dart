@@ -11,7 +11,8 @@ final appRouter = GoRouter(
         GoRoute(path: '/progres',name: ProgressScreen.nameRoute ,builder: (context, state) => const ProgressScreen(),) ,
         GoRoute(path: '/snack',name: SnackBarScreen.nameRoute ,builder: (context, state) => const SnackBarScreen(),) ,
         GoRoute(path: '/animations',name: AnimatedScreen.nameRoute ,builder: (context, state) => const AnimatedScreen(),) ,
-        GoRoute(path: '/ui_control',name: UiScreen.nameRoute ,builder: (context, state) => const UiScreen(),) 
+        GoRoute(path: '/ui_control',name: UiScreen.nameRoute ,builder: (context, state) => const UiScreen(),), 
+        GoRoute(path: '/tutorial',name: AppTutorialScreen.nameRoute ,builder: (context, state) => const AppTutorialScreen(),), 
         
         ]
 );
