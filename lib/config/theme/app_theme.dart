@@ -14,13 +14,18 @@
 class AppTheme {
 
 final int selecteColor;
+final bool isDarkMode;
 
-  AppTheme({
+  AppTheme(
+     {
+      this.isDarkMode =false,
      this.selecteColor=0
   }): assert( selecteColor >=0,'Selected color must be great than 0'),
   assert(selecteColor < colorList.length, 'Select color between 0 and ${colorList.length}');
 
   ThemeData getTheme() =>ThemeData(
+
+    brightness: isDarkMode? Brightness.dark:Brightness.light,
     colorSchemeSeed: colorList[selecteColor],
     appBarTheme: const AppBarTheme(
       centerTitle: true

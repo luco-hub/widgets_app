@@ -19,6 +19,7 @@ class MenuItems {
 }
 
 const appMenuItems = <MenuItems>[
+MenuItems(title: 'Contador',subTitle: 'Contador',link: '/counter',icono: Icons.add),
 MenuItems(title: 'Botones',subTitle: 'varios botones flutter',link: '/buttons',icono: Icons.smart_button_outlined),
 MenuItems(title: 'Tarjetas',subTitle: 'un contenedor estilizado',link: '/Card',icono: Icons.credit_card),
 MenuItems(title: 'Proges Indicator',subTitle: 'Generales y controlados',link: '/progres',icono: Icons.refresh_rounded),
@@ -26,5 +27,6 @@ MenuItems(title: 'Snack Bar y Dialogs',subTitle: 'Generales y controlados',link:
 MenuItems(title: 'Animate Container',subTitle: 'Animations',link: '/animations',icono: Icons.check_box_outline_blank_rounded),
 MenuItems(title: 'UI Controls',subTitle: 'Ui Ctrl',link: '/ui_control',icono: Icons.check_box_outlined),
 MenuItems(title: 'Tutorial',subTitle: 'tutorial basico',link: '/tutorial',icono: Icons.adb_sharp),
+MenuItems(title: 'Change Theme',subTitle: 'cambia tu tema',link: '/change-theme',icono: Icons.change_circle_outlined),
 
 ];
