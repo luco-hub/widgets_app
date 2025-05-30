@@ -1,3 +1,3 @@
 # widgets_app
 
-A new Flutter project.
+Practica del nuevo curso con implementacion de arquitectura limpira
